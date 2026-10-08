@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Semillero de Investigación OCSYSTEM - Sistema Integrado de Gestión y Arquitectura Tecnológica">
+    <title>Semillero OCSYSTEM | Investigación e Innovación Tecnológica</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Iconos Lucide / FontAwesome para legibilidad visual -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ==================== ENCABEZADO ==================== -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-badge">SEMILLERO DE INVESTIGACIÓN</span>
+            <h1>OCSYSTEM<span>.</span></h1>
+        </div>
+        <nav class="nav" id="mainNav" aria-label="Navegación principal">
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#investigacion">Investigación</a></li>
+        <li><a href="#arquitectura">Arquitectura</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="#contacto" class="nav-btn">Contacto</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <!-- ==================== SECCIÓN HERO / PORTADA ==================== -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="tag-proyecto">PROYECTO DE INVESTIGACIÓN Y DESARROLLO</span>
+            <h2>Sistema Integrado de Gestión y Soporte Tecnológico OCSYSTEM</h2>
+            <p>
+                Optimizando la infraestructura TI, la trazabilidad de solicitudes y el control de activos 
+                mediante arquitecturas de software robustas y plataformas de Ticketing de código abierto.
+            </p>
+            <div class="hero-actions">
+                <a href="#investigacion" class="btn btn-primary">Ver Proyecto</a>
+                <a href="#nosotros" class="btn btn-outline">Conoce al Equipo</a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <img src="img/portada.jpeg" alt="Portada Semillero de Investigación OCSYSTEM" class="hero-img">
+        </div>
+    </section>
+
+    <!-- ==================== SECCIÓN 1: NOSOTROS ==================== -->
+    <section id="nosotros" class="nosotros-section">
+        <div class="section-title">
+            <span class="sub-title">¿Quiénes Somos?</span>
+            <h2>Semillero de Investigación Tecnológica</h2>
+        </div>
+        <div class="nosotros-grid">
+            <div class="card-nosotros highlight-card">
+                <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h3>Nuestro Equipo</h3>
+                <p>
+                    Somos estudiantes de <strong>7mo semestre de Ingeniería Informática</strong> de la 
+                    <strong>Corporación Universitaria de Cataluña</strong>, comprometidos con el desarrollo de 
+                    soluciones de software eficientes, la optimización de procesos tecnológicos y la formulación 
+                    de proyectos aplicados a la industria.
+                </p>
+            </div>
+            <div class="card-nosotros">
+                <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <h3>Objetivo de Investigación</h3>
+                <p>
+                    Estructurar e implementar el sistema <strong>OCSYSTEM</strong> integrando GLPI para la gestión 
+                    de tickets de soporte, control de mesa de ayuda e inventario de infraestructura TI de forma centralizada.
+                </p>
+            </div>
+            <div class="card-nosotros">
+                <div class="card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <h3>Enfoque Metodológico</h3>
+                <p>
+                    Aplicación de buenas prácticas ITIL v4, arquitectura web escalable en PHP/MySQL, seguridad de la información 
+                    y control de calidad bajo normas ISO 27001.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECCIÓN 2: PROYECTO E INVESTIGACIÓN ==================== -->
+    <section id="investigacion" class="investigacion-section">
+        <div class="section-title">
+            <span class="sub-title">Detalles del Proyecto</span>
+            <h2>Diagnóstico e Investigación Aplicada</h2>
+        </div>
+
+        <div class="investigacion-container">
+            <div class="investigacion-block">
+                <div class="block-badge"><i class="fa-solid fa-triangle-exclamation"></i> Planteamiento del Problema</div>
+                <h3>Inconsistencias y Pérdida de Seguimiento en Soporte TI</h3>
+                <p>
+                    La ausencia de una herramienta centralizada para el registro de solicitudes técnicas provoca demoras en la 
+                    atención de requerimientos, falta de métricas de rendimiento (SLA) e ineficiencia en el control de inventario informático.
+                </p>
+            </div>
+
+            <div class="investigacion-block">
+                <div class="block-badge accent-badge"><i class="fa-solid fa-layer-group"></i> Solución Propuesta: OCSYSTEM</div>
+                <h3>Implementación de Plataforma de Gestión TI (GLPI)</h3>
+                <p>
+                    Despliegue de un entorno de Mesa de Ayuda que permite el registro automático de tickets, asignación por niveles 
+                    de soporte, seguimiento de incidentes en tiempo real y categorización de activos de red y hardware.
+                </p>
+            </div>
+        </div>
+
+        <!-- Módulos Clave del Sistema -->
+        <div class="modulos-container">
+            <h3>Módulos Fundamentales de OCSYSTEM</h3>
+            <div class="modulos-grid">
+                <div class="modulo-card">
+                    <span class="num">01</span>
+                    <h4>Mesa de Ayuda (Helpdesk)</h4>
+                    <p>Recepción, priorización y canalización de tickets de incidentes y requerimientos técnicos.</p>
+                </div>
+                <div class="modulo-card">
+                    <span class="num">02</span>
+                    <h4>Inventario de Activos TI</h4>
+                    <p>Registro detallado de equipos, servidores, software, licencias y dispositivos de red.</p>
+                </div>
+                <div class="modulo-card">
+                    <span class="num">03</span>
+                    <h4>Gestión de SLA</h4>
+                    <p>Monitoreo de tiempos de respuesta y solución acordados con las áreas usuarias.</p>
+                </div>
+                <div class="modulo-card">
+                    <span class="num">04</span>
+                    <h4>Métricas y Analítica</h4>
+                    <p>Generación de reportes de gestión e indicadores para la toma de decisiones estratégicas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECCIÓN 3: ARQUITECTURA TÉCNICA ==================== -->
+    <section id="arquitectura" class="arquitectura-section">
+        <div class="section-title">
+            <span class="sub-title">Stack Tecnológico</span>
+            <h2>Arquitectura y Componentes del Sistema</h2>
+        </div>
+
+        <div class="tech-grid">
+            <div class="tech-card">
+                <i class="fa-brands fa-php tech-icon"></i>
+                <h4>Core Backend</h4>
+                <p>Lenguaje PHP para el procesamiento de lógica de negocio y API REST de integración.</p>
+            </div>
+            <div class="tech-card">
+                <i class="fa-solid fa-database tech-icon"></i>
+                <h4>Base de Datos</h4>
+                <p>MySQL / MariaDB estructurado para alta disponibilidad e integridad relacional.</p>
+            </div>
+            <div class="tech-card">
+                <i class="fa-solid fa-server tech-icon"></i>
+                <h4>Servidor Web</h4>
+                <p>Apache / Nginx desplegado en entornos Linux para optimizar tiempos de respuesta.</p>
+            </div>
+            <div class="tech-card">
+                <i class="fa-solid fa-shield-halved tech-icon"></i>
+                <h4>Seguridad TI</h4>
+                <p>Control de acceso basado en roles (RBAC), cifrado SSL/TLS y copias de seguridad continuas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECCIÓN 4: RESULTADOS ==================== -->
+    <section id="resultados" class="resultados-section">
+        <div class="section-title">
+            <span class="sub-title">Impacto Esperado</span>
+            <h2>Resultados y Métricas de Éxito</h2>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number" data-target="95">%</span>
+                <span class="stat-label">Trazabilidad de Requerimientos</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="40">%</span>
+                <span class="stat-label">Reducción en Tiempo de Atención</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="100">%</span>
+                <span class="stat-label">Control de Inventario de Hardware</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECCIÓN CONTACTO ==================== -->
+    <section id="contacto" class="contacto-section">
+        <div class="contacto-card">
+            <h2>¿Interesado en conocer más de la investigación?</h2>
+            <p>Ponte en contacto con los investigadores del Semillero OCSYSTEM.</p>
+            <form class="contacto-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="nombre" placeholder="Nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="correo" placeholder="Correo institucional o corporativo" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje o consulta sobre el semillero..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+            </form>
+            <div id="formFeedback" class="feedback-msg"></div>
+        </div>
+    </section>
+
+    <!-- ==================== PIE DE PÁGINA ==================== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>OCSYSTEM<span>.</span></h3>
+                <p>Semillero de Investigación en Ingeniería Informática</p>
+                <p class="univ">Corporación Universitaria de Cataluña — 7mo Semestre</p>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Semillero OCSYSTEM. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/app.js"></script> 
+</body>
+</html>
